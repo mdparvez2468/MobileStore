@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="15dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/product2Image"
+            android:layout_width="match_parent"
+            android:layout_height="205dp" />
+
+        <TextView
+            android:id="@+id/produc2tName"
+            android:text="Samsung Galaxy M21"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+
+            android:id="@+id/productPrice"
+            android:text="$ 200"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#FF5722"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/productbutton"
+                android:background="@color/white"
+                android:layout_margin="5dp"
+                android:padding="0dp"
+                android:src="@drawable/ic_baseline_shopping_cart_24"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+             <ImageButton
+                android:id="@+id/favorite_productbutton"
+                 android:background="@color/white"
+                android:layout_margin="5dp"
+                android:padding="0dp"
+                 android:src="@drawable/ic_baseline_favorite_24"
+                android:layout_width="0dp"
+                 android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
